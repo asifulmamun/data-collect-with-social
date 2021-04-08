@@ -1,3 +1,3 @@
 # data-collect-with-social
 
-it's just shakil education purpose. Do no miss use with this.
+it's just education purpose. Do not miss use with this. Tried with Shakil, KP
