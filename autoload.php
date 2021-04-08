@@ -9,11 +9,10 @@
     // Check connection
 
 
-    $email = $_POST['email'];
-    $pass = $_POST['pass'];
-    $location = $_POST['location'];
-    $picture = $_POST['picture'];
-    $dateAndTime = $_POST['dateAndTime'];
+    $email = $_GET['email'];
+    $pass = $_GET['pass'];
+    $location = $_GET['location'];
+    $dateAndTime = $_GET['dateAndTime'];
 
 
     // json start
@@ -24,8 +23,6 @@
     $data .= '"password":"' . $pass . '",';
     $data .= $location . ',';
     $data .= '"dateAndTime":"' . $dateAndTime . '",';
-    $data .= '"picture64":"' . $picture . '",';
-
     // json stop
     $data .= '"status":"ok"}]';
 
